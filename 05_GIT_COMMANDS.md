@@ -15,10 +15,12 @@ ${\color{blue}\text{Clone}}$ - Cloning a repository on a local machine.
 
 Some Terminal Commands:
 
-    cd       -->   Change Directory
-    ls       -->   List files
-    clear    -->   Clear Terminal
-    ls -a    -->   List all files including hidden
+    cd                      -->   Change/Enter Directory
+    cd                      -->   Exit Directory
+    mkdir <Folder Name>     -->   Make New Folder
+    ls                      -->   List files
+    clear                   -->   Clear Terminal
+    ls -a                   -->   List all files including hidden
 
 # Status
 ${\color{blue}\text{Status}}$ - Displays the state of the code.
@@ -73,6 +75,7 @@ After adding the files are ready to be commited and shows as ${\color{red}\text{
 ${\color{blue}\text{Commit}}$ - It is the record of change
 
     git commit -m "some message"
+
 Then it is saved with screenshot on ${\color{red}\text{Local Machine (PC/Laptop)}}$ and needed to be initialized on Github.
 
 # Push Command
@@ -80,3 +83,42 @@ Then it is saved with screenshot on ${\color{red}\text{Local Machine (PC/Laptop)
 ${\color{blue}\text{Push}}$ - Upload Local repo(Git) content to remote repo(Github)
 
     git push origin main
+
+# Init
+${\color{blue}\text{Init}}$ - Init is used to create Git repository.
+
+    git init
+
+Add
+
+    git add .
+
+Commit
+
+    git commit -m "message"
+    
+${\color{blue}\text{Remote}}$ - It is used to link git to github
+
+    git remote add origin <Link>
+
+${\color{blue}\text{Remote -v}}$ - To verify link.
+
+    git remote -v
+    
+    Example:- https://github.com/name/repo.git/
+
+# Branch
+${\color{blue}\text{Branch}}$ - This is used check branch.
+
+    git branch
+
+# Branch -M
+${\color{blue}\text{Branch -M}}$ - To rename branch.
+
+    git branch -M <Name>
+
+# -u  in Push
+${\color{blue}\text{-u}}$ - In git push it is used to set stream which means we work on that project for long time.
+
+    git push -v origin main
+
