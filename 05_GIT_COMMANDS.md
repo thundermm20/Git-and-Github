@@ -107,8 +107,16 @@ ${\color{blue}\text{Remote -v}}$ - To verify link.
     
     Example:- https://github.com/name/repo.git/
 
+# -u  in Push
+${\color{blue}\text{-u}}$ - In git push it is used to set stream which means we work on that project for long time.
+
+    git push -v origin main
+
 # Branch
-${\color{blue}\text{Branch}}$ - This is used check branch.
+${\color{blue}\text{Branch}}$ - This is used to work on different features of same project separately.
+
+# Git Branch
+${\color{blue}\text{Git Branch}}$ - This is used to check branch.
 
     git branch
 
@@ -117,8 +125,17 @@ ${\color{blue}\text{Branch -M}}$ - To rename branch.
 
     git branch -M <Name>
 
-# -u  in Push
-${\color{blue}\text{-u}}$ - In git push it is used to set stream which means we work on that project for long time.
+# Branch Checkout
+${\color{blue}\text{Branch Checkout}}$ - This is used to move from one branch to another (to navigate).
 
-    git push -v origin main
+    git checkout <Branch Name>
 
+# Branch Checkout -b
+${\color{blue}\text{Branch Checkout -b}}$ - This is used to create new branch.
+
+    git checkout -b <New Branch Name>
+
+# Branch Checkout -d
+${\color{blue}\text{Branch Checkout -d}}$ - This is used to delete branch.
+
+    git checkout -d <Branch Name>
