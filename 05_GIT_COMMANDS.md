@@ -139,3 +139,100 @@ ${\color{blue}\text{Branch Checkout -b}}$ - This is used to create new branch.
 ${\color{blue}\text{Branch Checkout -d}}$ - This is used to delete branch.
 
     git checkout -d <Branch Name>
+
+# Pull Command
+It is used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+    git pull origin main
+
+# Branch Merge
+It refers to merging of two branches.
+
+${\color{blue}\text{MERGE WITH PULL REQUEST}}$</br>
+It lets you tell others about changes you have pushed to a branch  in a repository on Github. It also helps to check whether changes are applicable after reviewing by senior developer.
+
+    Step-1: Open branch which you want to merge.
+
+    Step-2: Click on Compare or pull request.
+    
+    Step-3: It opens view if branches are mergeable or not & which branch is going to merge whom.
+    
+    Step-4: Write pull request name(write comment).
+    
+    Step-5: Click on Create pull request.
+    
+    Step-6: Then Github check if it is automatic mergeable
+    
+    Step-7: Click on Merge pull request.
+    
+    Step-8: Click on Confirm merge and new commit is added with name and description.
+    
+    Step-9: Then it show message of succession.
+    
+    Step-10: Then same changes will be shown in both branches
+
+# Merge Conflicts
+It is an event that takes place when Git is unable to automatically resolve differences in code between two commits.
+
+${\color{blue}\text{MERGE WITH GIT}}$</br>
+It is used to merge branches in local repository and solve merge conflicts.
+
+${\color{blue}\text{Diff}}$ - It is used to differentiate one branch from another. In simple words, it is used to compare commits, branches, files & more.
+
+    git diff <Branch Name>
+
+${\color{blue}\text{Merge}}$ - It is used to merge one branch to another locally.
+
+    git merge <Branch Name>
+
+It shows conflicts occuring during merging branches. And provide overview to solve it with options.
+
+    <<<<<<< HEAD (Current Change)
+    <p>(dropdown)</p>
+    =======
+    <p>(button)</p>
+    >>>>>>> main (Incoming Change)
+
+    Options:
+        Accept Current Change
+        Accept Incoming Change
+        Accept Both Changes
+        Compare Changes
+
+Now we can simply add, commits and merge changes
+
+# Log
+It is used to view commit logs
+
+    git log
+
+# Undoing Change
+${\color{blue}\text{Case 1}}$ - Staged Changes<br>
+These are the changes which are added but not commited. Reset is used to undo add.
+
+    git reset <File Name>
+
+    git reset
+
+${\color{blue}\text{Case 2}}$ - Commit Changes (For One Commit)<br>
+These are the changes which are added and commited both. Reset HEAD~1 is used to undo one commit.
+
+    git reset HEAD~1
+
+${\color{blue}\text{Case 3}}$ - Commit Changes (For Multiple Commits)<br>
+These are the changes which are added and commited both. These are is used to undo multiple commits.
+
+    git reset <Commit Hash>      Hash example: 32h2h23jk34jj324bh3h
+
+Reset --hard is used to also make changes in the VS Code.
+
+    git reset --hard <Commit Hash>
+
+# Fork
+A fork is a new repository that shares code and visibility settings with the original "upstream" repository. Fork is a rough copy.
+
+    Step-1: Open project code which is going to fork.
+    Step-2: Click on Fork.
+    Step-3: When Create a new fork shows, do changes if needed.
+    Step-4: Click on Create fork.
+    Step-5: Now all project code will be fork.
