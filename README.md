@@ -13,3 +13,14 @@ Documentation
 https://docs.chaicode.com/youtube/chai-aur-git/welcome/
 
     https://docs.chaicode.com/youtube/chai-aur-git/welcome/
+
+# Official
+Cheatsheet</br>
+https://docs.chaicode.com/youtube/chai-aur-git/welcome/
+
+    https://docs.chaicode.com/youtube/chai-aur-git/welcome/
+
+References</br>
+https://git-scm.com/docs
+
+    https://git-scm.com/docs
