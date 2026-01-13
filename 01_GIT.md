@@ -19,3 +19,21 @@ In this files names are saved of those files which we don't want to push to gith
 
 # .gitkeep
 This file is used to keep empty folders without content, which git & github generally ignores.
+
+# Rebase
+It is used to update code which is going on previous commit branch to new branch.
+
+    git rebase <Branch Name>
+
+Update code without commit.
+
+    git rebase --continue
+
+# Reflog
+It is a commant that shows history of the commit. It allows to see the changes that have made to repository over time.
+
+    git reflog
+
+Find Specific Commit
+
+    git reflog <Commit Hash>
