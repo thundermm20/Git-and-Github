@@ -37,3 +37,14 @@ It is a commant that shows history of the commit. It allows to see the changes t
 Find Specific Commit
 
     git reflog <Commit Hash>
+
+# Recover lost commits and changes
+It is used to recover accidently deleted branch and changes that are no longer are visible to commit. Find reference of branch or change exited, then reset branch to reference.
+
+    git reflog <Commit Hash>
+    git reset --hard <Commit Hash>
+
+or use Head@{n} to rest to nth commit
+
+    git reflog <Commit Hash>
+    git reset --hard HEAD@{1}
